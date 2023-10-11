@@ -41,3 +41,30 @@ cab, manually installation is requried
 
 testing done,  
 ![8852BE_Testing_done.JPG](8852BE_Testing_done.JPG)  
+
+
+### BT / airplane mode icon and display issue
+something went wrong, air plane mode and icon are presistent, WIFI down, BT down, no solution.  
+
+![Win10搞飛機.jpg](Win10搞飛機.jpg)  
+![Win10搞飛機2.jpg](Win10搞飛機2.jpg)  
+
+
+temporary fix, uses registry edit,  
+
+disable_airplane_mode.reg  
+```
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\RadioManagement\SystemRadioState]
+@=dword:00000000
+```
+
+
+enable_airplane_mode.reg  
+```
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\RadioManagement\SystemRadioState]
+@=dword:00000000
+```
