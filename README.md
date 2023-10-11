@@ -52,7 +52,7 @@ something went wrong, air plane mode and icon are presistent, WIFI down, BT down
 
 temporary fix, uses registry edit,  
 
-disable_airplane_mode.reg  
+[disable_airplane_mode.reg](disable_airplane_mode.reg)  
 ```
 Windows Registry Editor Version 5.00
 
@@ -61,7 +61,7 @@ Windows Registry Editor Version 5.00
 ```
 
 
-enable_airplane_mode.reg  
+[enable_airplane_mode.reg](enable_airplane_mode.reg)  
 ```
 Windows Registry Editor Version 5.00
 
